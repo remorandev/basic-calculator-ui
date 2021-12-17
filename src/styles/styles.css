@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-clean {
+    @apply bg-red-100 shadow-md rounded-2xl w-12 h-12 text-red-600 font-medium flex justify-center items-center;
+  }
+  .btn-operations {
+    @apply bg-red-500 shadow-md rounded-2xl w-12 h-12 text-white font-medium text-xl flex justify-center items-center;
+  }
+  .btn-equal {
+    @apply bg-blue-500 shadow-md rounded-2xl w-12 h-12 text-white font-medium text-xl flex justify-center items-center;
+  }
+  .btn-numeric {
+    @apply bg-gray-200 shadow-md rounded-2xl w-12 h-12 text-black font-medium flex justify-center items-center;
+  }
+  .btn-numeric-2xl {
+    @apply bg-gray-200 shadow-md rounded-2xl w-full h-12 text-black font-medium flex justify-center items-center;
+  }
+}
