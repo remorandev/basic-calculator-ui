@@ -5,7 +5,11 @@ const button = (props) => {
     btnClass = btnClass + props.type;
   }
 
-  return <button className={btnClass}>{props.children}</button>;
+  return (
+    <button className={btnClass} onClick={props.onButtonPress}>
+      {props.children}
+    </button>
+  );
 };
 
 export default button;

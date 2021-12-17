@@ -1,7 +1,7 @@
 
-const calculationScreen = () => (
+const calculationScreen = (props) => (
     <div className="text-black font-bold text-3xl">
-        545
+        {props.children}
     </div>
 );
 
